@@ -1,0 +1,21 @@
+# Dataset original (demasiado grande para GitHub)
+data/Home_and_Kitchen.jsonl.gz
+
+# Modelos grandes
+models/rf_model.pkl
+
+# Archivos generados (se regeneran ejecutando el notebook)
+data/subset_raw.parquet
+data/subset_split.parquet
+
+# MLflow
+mlruns/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

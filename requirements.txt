@@ -1,0 +1,29 @@
+# Proyecto Integrador Fase 2 - Machine Learning
+# Universidad Catolica Boliviana - Gestion 2026-I
+
+# Core
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=12.0.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+lightgbm>=4.0.0
+flaml>=2.1.0
+
+# NLP
+nltk>=3.8.0
+
+# Experiment tracking
+mlflow>=2.7.0
+
+# Utilities
+joblib>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Notebook
+ipykernel>=6.25.0
+jupyter>=1.0.0
