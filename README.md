@@ -97,12 +97,15 @@ mlflow ui --backend-store-uri mlruns/
 
 Particion estratificada 70 / 15 / 15 con `SEED = 42`. TF-IDF ajustado unicamente sobre `X_train`.
 
-| Modelo | Accuracy | F1-Macro | ROC-AUC (OvR) |
-|---|---|---|---|
-| Logistic Regression | 0.7185 | 0.6334 | 0.8514 |
-| LightGBM | 0.7124 | 0.6317 | 0.8452 |
-| FLAML AutoML | 0.6957 | 0.6181 | 0.8293 |
-| Random Forest | 0.6895 | 0.5216 | 0.8299 |
+| Modelo              | Accuracy | F1-Macro | ROC-AUC (OvR) |
+|---------------------|----------|----------|---------------|
+| Logistic Regression | 0.7192   | 0.6307   | 0.8509        |
+| LightGBM            | 0.7089   | 0.6289   | 0.8456        |
+| FLAML AutoML        | pendiente re-ejecucion | pendiente | pendiente |
+| Random Forest       | 0.6865   | 0.5199   | 0.8302        |
+
+Evaluacion sobre el conjunto de prueba (test set, 15 000 registros).
+Los valores de FLAML se actualizan tras re-ejecutar con representacion LSA.
 
 **Mejor modelo:** Logistic Regression (F1-Macro y ROC-AUC mas altos).
 
